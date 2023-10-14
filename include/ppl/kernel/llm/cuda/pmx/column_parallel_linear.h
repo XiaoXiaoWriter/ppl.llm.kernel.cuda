@@ -19,7 +19,7 @@
 #define __PPL_KERNEL_LLM_CUDA_PMX_COLUMN_PARALLEL_LINEAR_H__
 
 #include "ppl/kernel/llm/cuda/common/general_include.h"
-#include "cudakernel/common/common.cuh"
+
 #include "ppl/kernel/llm/cuda/cublas/gemm.h"
 #include "ppl/common/cuda/nccl_utils.h"
 

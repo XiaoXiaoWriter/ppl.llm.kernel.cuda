@@ -19,7 +19,6 @@
 #define __PPL_KERNEL_LLM_CUDA_PMX_SILU_H__
 
 #include "ppl/kernel/llm/cuda/common/general_include.h"
-#include "cudakernel/common/common.cuh"
 
 namespace ppl { namespace kernel { namespace llm { namespace cuda { namespace pmx {
 

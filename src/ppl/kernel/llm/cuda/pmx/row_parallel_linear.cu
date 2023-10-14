@@ -18,6 +18,8 @@
 #include "ppl/kernel/llm/cuda/pmx/row_parallel_linear.h"
 #include "ppl/common/log.h"
 
+#include "cudakernel/common/common.cuh"
+
 namespace ppl { namespace kernel { namespace llm { namespace cuda { namespace pmx {
 
 template <typename T>

@@ -18,6 +18,7 @@
 #include "ppl/kernel/llm/cuda/pmx/column_parallel_linear.h"
 #include "ppl/common/log.h"
 
+#include "cudakernel/common/common.cuh"
 #include "cudakernel/memory/transpose.h"
 
 namespace ppl { namespace kernel { namespace llm { namespace cuda { namespace pmx {
